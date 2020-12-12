@@ -1,0 +1,55 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-size: 1.6rem;
+  margin: 0 ;
+}
+
+table{
+  border: solid 1px;
+  border-collapse: collapse;//th.tdの周りの幅をなくす
+  background-color:#f9f9f9;
+}
+
+thead,
+tfoot{
+  background-color: #30475e;
+  color: #f9f9f9;
+}
+
+th,
+td{
+  padding: 2px;
+  text-align: center;
+  border: 1px solid #333;
+  width: 40px;;
+}
+
+tbody td:hover{
+  background-color: #fff591;
+}
+
+td.disabled{
+  opacity: 0.3;
+}
+td.today{
+  font-weight: 900;
+}
+
+
+
+tbody td:first-child{
+  color: red;
+}
+  tbody td:last-child{
+    color: blue;
+  }
+
+  #prev,
+  #next,
+  #tfoot{
+    cursor: pointer;
+  }
